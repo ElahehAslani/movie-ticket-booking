@@ -2,6 +2,7 @@ export const movies = [
   {
     id: 1,
     name: 'Hamlet',
+    type: 'tragedy',
     path: '/movie-seat-1',
     ticketCost: 200,
     seats: {
@@ -17,6 +18,7 @@ export const movies = [
   {
     id: 2,
     name: 'As You Like It',
+    type: 'comedy',
     path: '/movie-seat-2',
     ticketCost: 200,
     seats: {
@@ -32,6 +34,7 @@ export const movies = [
   {
     id: 3,
     name: 'Othello',
+    type: 'tragedy',
     path: '/movie-seat-3',
     ticketCost: 200,
     seats: {
